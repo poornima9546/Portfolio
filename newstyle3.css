@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Malayalam&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height:100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8%;
+    background-color: rgb(17, 17, 48);
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: lightseagreen;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: lightseagreen;
+    transition: .4s;
+}
+
+.content {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    transform: translateX(-50%);
+    text-align: left;
+}
+
+h3 {
+    color: rgb(17, 17, 117);
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+h4 {
+    color:rgb(17, 17, 117);
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    
+}
+
+p { 
+    color: rgb(17, 17, 117);
+    font-size: 18px;
+    line-height: 2;
+}
+
+.enquiry form {
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.enquiry form input:first-child {
+    width: calc(100% - 20px);
+    padding: 14px 15px;
+    border: 2px solid rgb(17, 17, 117);
+    outline: none;
+    border-radius: 30px;
+}
+
+.enquiry form input:last-child {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    padding: 10px 20px;
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.icons{
+    position:absolute;
+    bottom: 4rem;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+}
+
+.image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image img {
+    height: 400px;
+    width: 25%;
+    margin-top: 10px;
+    margin-right: 90px;
+    display: flex;
+    float: right;
+    border: 2px solid lightseagreen;
+    border-radius: 18%;
+}
+
